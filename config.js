@@ -1,11 +1,13 @@
-var config = require('../config'),
-  knex = require('knex')(config.database),
-  Bookshelf = require('bookshelf')(knex);
-
-module.exports = Location = Bookshelf.Model.extend({
-    tableName: 'locations',
-    hasTimestamps: true,
-    user: function() {
-      return this.belongsTo(User, 'user');
+module.exports = {
+  database: {
+    client: 'mysql',
+    connection: {
+        host     : '127.0.0.1',
+        user     : 'root',
+        password : 'tabikisifrebudegilsalakmisin',
+        database : 'gps',
+        charset  : 'utf8'
     }
-});
+  },
+  port: 8080
+};
