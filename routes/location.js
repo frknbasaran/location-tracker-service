@@ -12,7 +12,7 @@ var Locations = Bookshelf.Collection.extend({
 router.route('/')
 
 .get(function (req, res) {
-  if (typeof req.params.lat !== undefined && typeof req.params.lon !== undefined) {
+  if (typeof req.param('lat') !== "" && typeof req.param('lon') !== undefined) {
     Location.forge({
       lat: req.params.lat,
       lon: req.params.lon
