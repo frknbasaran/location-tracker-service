@@ -3,6 +3,5 @@ var config = require('../config'),
   Bookshelf = require('bookshelf')(knex);
 
 module.exports = Location = Bookshelf.Model.extend({
-    tableName: 'locations',
-    hasTimestamps: true
+    tableName: 'locations'
 });
