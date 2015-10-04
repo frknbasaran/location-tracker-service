@@ -2,9 +2,9 @@ module.exports = {
   database: {
     client: 'mysql',
     connection: {
-        host     : '127.0.0.1',
+        host     : 'localhost',
         user     : 'root',
-        password : 'tabikisifrebudegilsalakmisin',
+        password : '',
         database : 'gps',
         charset  : 'utf8'
     }
