@@ -1,0 +1,35 @@
+{
+  "name": "location-server",
+  "version": "1.0.0",
+  "description": "parse and save to database current locations recevied from mobile app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frknbasaran/location-tracking-server.git"
+  },
+  "keywords": [
+    "location",
+    "tracking",
+    "gps",
+    "nodejs",
+    "real-time",
+    "mysql"
+  ],
+  "author": "Furkan Başaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frknbasaran/location-tracking-server/issues"
+  },
+  "homepage": "https://github.com/frknbasaran/location-tracking-server#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "bookshelf": "^0.8.1",
+    "express": "^4.13.3",
+    "knex": "^0.8.6",
+    "mysql": "^2.8.0",
+    "when": "^3.7.3"
+  }
+}
