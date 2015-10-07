@@ -9,5 +9,5 @@ module.exports = {
         charset  : 'utf8'
     }
   },
-  port: 8082
+  port: 8081
 };
